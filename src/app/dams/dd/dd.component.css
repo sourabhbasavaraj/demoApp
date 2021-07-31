@@ -1,0 +1,19 @@
+.head{
+    padding-left: 100px;
+}
+
+
+#pad{
+    padding-bottom: 100px;
+}
+
+.img2{
+    padding-right: 20px;
+}
+.cmp{
+    background-color: #9A0000;
+    color: black;
+    border: 2px solid black;
+    margin-left: 750px;
+    margin-bottom: 10px;
+}

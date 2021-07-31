@@ -1,0 +1,165 @@
+.container{
+    padding: 20px;
+
+}
+.navbar-brand{
+    padding-left: 50px;
+}
+.nav-item3{
+    padding-right: 100px;
+}
+.whole{
+    width: 100%;
+}
+/* .col-md-2{
+    background-image: url(C:\Users\BasavarajSajjan\Desktop\Wallpapers\Spidy.jpg);
+} */
+
+/* .divison{
+    display: grid;
+    grid-template-columns:65% auto;
+    padding: 100px 50px 0px 100px;
+
+}
+.side{
+    
+    padding: 50px 300px 0px 150px;
+    
+    
+}
+.home{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    margin: 0px 200px 0px 0px;
+} */
+
+
+.menu { grid-area: menu; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+
+.division {
+  display: grid;
+  grid-template-areas:
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+  grid-gap: 50 px;
+  padding: 10px;
+}
+
+.menu{
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+.main{
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-left: px;
+}
+
+.wall{
+    background-image: url("../assets/hills1.jpg");
+    /* opacity: 95%; */
+    background-repeat: no-repeat;
+    background-size: 100%;      
+}
+
+.navbar-brand{
+    color: cadetblue;
+}
+
+
+.heading{
+    color:whitesmoke;
+}
+
+#subhead{
+    padding-top: 150px;
+    padding-left: 500px;
+    padding-right: 200px;
+}
+#ssubhead{
+    padding-left: 400px;
+    padding-right: 200px;
+
+}
+
+/* Dropdown CSS */
+.dropbtn {
+    
+    /* color: cornflowerblue; */
+    font-size: 16px;
+    border: none;
+   
+ 
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:rgb(151, 65, 65)}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: white;}
+
+  /* DropDown CSS end */
+
+.footer{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+.menu{
+   
+    text-align: center;
+    
+}
+.whole{
+    font-family: 'Overpass', sans-serif;
+}
+
+.btn-custom{
+    width: 150px;
+    margin-bottom: 30px;
+}
+.top{
+    margin-top: 50px;
+}
+
+.fa{
+    color:whitesmoke;
+  }
+
+  .num{
+      padding-top: 20px;
+      padding-left: 40px;
+  }
+  .mail{
+      padding-top: 20px;
+      padding-left: 990px;
+  }
+
